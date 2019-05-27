@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "add;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17310292751,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user is in telecom home page",
+            "match": {
+              "location": "stepdefscenario.the_user_is_in_telecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12589385960,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///label[text()\u003d\u0027Done\u0027] because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027///label[text()\u003d\u0027Done\u0027]\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d74.0.3729.157)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DV15EBE\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\NKATHI~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}\nSession ID: 3865ccdeca521aaab35fce6061554384\n*** Element info: {Using\u003dxpath, value\u003d///label[text()\u003d\u0027Done\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.cucu.sample.stepdefscenario.the_user_is_filling_all_the_field(stepdefscenario.java:30)\r\n\tat ✽.The user is filling all the field\"karthi\",\"rajan\",\"kr@gmail.com\",\"tanjore\",\"786543333\"(src/test/resources/Feature/Addscenariooutline.feature:5)\r\n",
+              "duration": 927390254,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "The user is filling all the field\"karthi\",\"rajan\",\"kr@gmail.com\",\"tanjore\",\"786543333\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthi\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"rajan\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"kr@gmail.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"tanjore\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"786543333\"",
+                  "offset": 75
+                }
+              ],
+              "location": "stepdefscenario.the_user_is_filling_all_the_field(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10667,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6222,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user should see the id is generated",
+            "match": {
+              "location": "stepdefscenario.the_user_should_see_the_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "add;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27980184454,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user is in telecom home page",
+            "match": {
+              "location": "stepdefscenario.the_user_is_in_telecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38762534772,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///label[text()\u003d\u0027Done\u0027] because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027///label[text()\u003d\u0027Done\u0027]\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d74.0.3729.157)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DV15EBE\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\NKATHI~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61022}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}\nSession ID: 5426c9de7c854c89718bff959328473f\n*** Element info: {Using\u003dxpath, value\u003d///label[text()\u003d\u0027Done\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.cucu.sample.stepdefscenario.the_user_is_filling_all_the_field(stepdefscenario.java:30)\r\n\tat ✽.The user is filling all the field\"ajith\",\"rajan\",\"ar@gmail.com\",\"trichy\",\"234567234\"(src/test/resources/Feature/Addscenariooutline.feature:5)\r\n",
+              "duration": 732413897,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "The user is filling all the field\"ajith\",\"rajan\",\"ar@gmail.com\",\"trichy\",\"234567234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ajith\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"rajan\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"ar@gmail.com\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"trichy\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"234567234\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepdefscenario.the_user_is_filling_all_the_field(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14222,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12444,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user should see the id is generated",
+            "match": {
+              "location": "stepdefscenario.the_user_should_see_the_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "add;title-of-your-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27320391413,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The user is in telecom home page",
+            "match": {
+              "location": "stepdefscenario.the_user_is_in_telecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44634269052,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ///label[text()\u003d\u0027Done\u0027] because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027///label[text()\u003d\u0027Done\u0027]\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d74.0.3729.157)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DV15EBE\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\NKATHI~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61192}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}\nSession ID: a84480a991d3a3011898b242266f12e1\n*** Element info: {Using\u003dxpath, value\u003d///label[text()\u003d\u0027Done\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.cucu.sample.stepdefscenario.the_user_is_filling_all_the_field(stepdefscenario.java:30)\r\n\tat ✽.The user is filling all the field\"ganesh\",\"rajan\",\"gr@gmail.com\",\"chennai\",\"123456789\"(src/test/resources/Feature/Addscenariooutline.feature:5)\r\n",
+              "duration": 3678997476,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "The user is filling all the field\"ganesh\",\"rajan\",\"gr@gmail.com\",\"chennai\",\"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ganesh\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"rajan\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"gr@gmail.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"123456789\"",
+                  "offset": 75
+                }
+              ],
+              "location": "stepdefscenario.the_user_is_filling_all_the_field(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12444,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "stepdefscenario.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11112,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user should see the id is generated",
+            "match": {
+              "location": "stepdefscenario.the_user_should_see_the_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add",
+    "description": "",
+    "id": "add",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Addscenariooutline.feature",
+    "tags": []
+  }
+]
